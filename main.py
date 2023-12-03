@@ -3,7 +3,7 @@ import time
 
 wbhk = input("webhook: ")
 pyld = input("payload: ")
-lolsponsor = ("github.com/toastedpumpkin/discord-webhook-spammer")
+lolsponsor = ("**https://github.com/toastedpumpkin/discord-webhook-spammer**")
 
 def function():
     requests.post(wbhk,json={'content': pyld,})
