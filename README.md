@@ -1,5 +1,6 @@
 # discord-webhook-spammer
 Just a simple python file that runs a webhook spammer.
+*it also doesnt get ratelimited yippee*
 # READ BELOW
 only use this software to annoy your friends or smth and to NOT spam any webhook in a discord server
 
