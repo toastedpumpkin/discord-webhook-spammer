@@ -1,5 +1,4 @@
 import requests
-import ctypes
 import time
 import colorama
 from colorama import Fore, Back, Style
