@@ -19,8 +19,8 @@ time.sleep(2)
 print(f"{Fore.MAGENTA}https://discord.gg/cHzvPFHPVd")
 time.sleep(3)
 
-wbhk = input(f"{Fore.RED}WEBHOOK: ")
-pyld = input(f"{Fore.RED}MESSAGE: ")
+wbhk = input(f"{Fore.LIGHTWHITE_EX}> webhook: ")
+pyld = input(f"{Fore.LIGHTWHITE_EX}> payload: ")
 
 def function():
     requests.post(wbhk,json={'content': pyld,})
