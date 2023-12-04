@@ -4,19 +4,22 @@ import colorama
 from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
 
-print(f"{Fore.MAGENTA}________           ___       __           ________ ")           
-print(f"{Fore.MAGENTA}|\   ____\         |\  \     |\  \        |\   ____\ ")
-print(f"{Fore.MAGENTA}\ \  \___|_        \ \  \    \ \  \       \ \  \___|_ ")
-print(f"{Fore.MAGENTA} \ \_____  \        \ \  \  __\ \  \       \ \_____  \   ")
-print(f"{Fore.MAGENTA}  \|____|\  \        \ \  \|\__\_\  \       \|____|\  \  ")
-print(f"{Fore.MAGENTA}    ____\_\  \        \ \____________\        ____\_\  \ ")
-print(f"{Fore.MAGENTA}  |\_________\        \|____________|       |\_________\ ")
-    
+print(f"{Fore.MAGENTA}▓█████▄     █     █░     ██████ ")           
+print(f"{Fore.MAGENTA}▒██▀ ██▌   ▓█░ █ ░█░   ▒██    ▒ ")
+print(f"{Fore.MAGENTA}░██   █▌   ▒█░ █ ░█    ░ ▓██▄")
+print(f"{Fore.MAGENTA}░▓█▄   ▌   ░█░ █ ░█      ▒   ██▒")
+print(f"{Fore.MAGENTA}░▒████▓    ░░██▒██▓    ▒██████▒▒")
+print(f"{Fore.MAGENTA} ▒▒▓  ▒    ░ ▓░▒ ▒     ▒ ▒▓▒ ▒ ░")
+print(f"{Fore.MAGENTA} ░ ▒  ▒      ▒ ░ ░     ░ ░▒  ░ ░")
+print(f"{Fore.MAGENTA} ░ ░  ░      ░   ░     ░  ░  ░  ")  
+print(f"{Fore.MAGENTA}   ░           ░             ░  ")
+print(f"{Fore.MAGENTA} ░ ")
+
 time.sleep(3)
 
-wbhk = input("webhook: ")
-pyld = input("payload: ")
-lolsponsor = ("**https://github.com/toastedpumpkin/discord-webhook-spammer**")
+wbhk = input(f"{Fore.RED}WEBHOOK: ")
+pyld = input(f"{Fore.RED}MESSAGE: ")
+lolsponsor = ("LMAO THIS WEBHOOK HAS BEEN SPAMMED BY TOASTEDPUMPKIN'S DWS")
 
 def function():
     requests.post(wbhk,json={'content': pyld,})
