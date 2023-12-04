@@ -1,4 +1,5 @@
 import requests
+import ctypes
 import time
 import colorama
 from colorama import Fore, Back, Style
@@ -26,5 +27,5 @@ def function():
 
 while True:
     function()
-    time.sleep(1)
+    time.sleep(0.8)
     print("sent :3")
