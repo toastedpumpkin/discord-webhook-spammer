@@ -14,16 +14,15 @@ print(f"{Fore.MAGENTA} ░ ▒  ▒      ▒ ░ ░     ░ ░▒  ░ ░")
 print(f"{Fore.MAGENTA} ░ ░  ░      ░   ░     ░  ░  ░  ")  
 print(f"{Fore.MAGENTA}   ░           ░             ░  ")
 print(f"{Fore.MAGENTA} ░ ")
-
+time.sleep(2)
+print(f"{Fore.MAGENTA}https://discord.gg/cHzvPFHPVd")
 time.sleep(3)
 
 wbhk = input(f"{Fore.RED}WEBHOOK: ")
 pyld = input(f"{Fore.RED}MESSAGE: ")
-lolsponsor = ("LMAO THIS WEBHOOK HAS BEEN SPAMMED BY TOASTEDPUMPKIN'S DWS")
 
 def function():
     requests.post(wbhk,json={'content': pyld,})
-    requests.post(wbhk,json={'content': lolsponsor,})
 
 while True:
     function()
