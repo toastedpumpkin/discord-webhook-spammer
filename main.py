@@ -4,8 +4,6 @@ import colorama
 from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
 
-SetConsoleTitleW(f"DWS by toastedpumpkin")
-
 print(f"{Fore.MAGENTA} █████▄     █     █░     ██████ ")           
 print(f"{Fore.MAGENTA}▒██▀ ██▌   ▓█░ █ ░█░   ▒██    ▒ ")
 print(f"{Fore.MAGENTA}░██   █▌   ▒█░ █ ░█    ░ ▓██▄")
