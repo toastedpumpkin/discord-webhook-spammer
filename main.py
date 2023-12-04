@@ -14,17 +14,18 @@ print(f"{Fore.MAGENTA} ░ ▒  ▒      ▒ ░ ░     ░ ░▒  ░ ░")
 print(f"{Fore.MAGENTA} ░ ░  ░      ░   ░     ░  ░  ░  ")  
 print(f"{Fore.MAGENTA}   ░           ░             ░  ")
 print(f"{Fore.MAGENTA} ░ ")
-time.sleep(2)
+time.sleep(1)
 print(f"{Fore.MAGENTA}https://discord.gg/cHzvPFHPVd")
-time.sleep(3)
+time.sleep(2)
 
 wbhk = input(f"{Fore.LIGHTWHITE_EX}> webhook: ")
 pyld = input(f"{Fore.LIGHTWHITE_EX}> payload: ")
+print("{Fore.RED}awsome sauce")
 
 def function():
     requests.post(wbhk,json={'content': pyld,})
 
 while True:
     function()
-    time.sleep(0.8)
-    print("sent :3")
+    time.sleep(0.6)
+    print("{Fore.GREEN}message sent")
