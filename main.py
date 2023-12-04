@@ -4,7 +4,7 @@ import colorama
 from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
 
-ctypes.windll.kernel32.SetConsoleTitleW(f"DWS by toastedpumpkin")
+SetConsoleTitleW(f"DWS by toastedpumpkin")
 
 print(f"{Fore.MAGENTA} █████▄     █     █░     ██████ ")           
 print(f"{Fore.MAGENTA}▒██▀ ██▌   ▓█░ █ ░█░   ▒██    ▒ ")
