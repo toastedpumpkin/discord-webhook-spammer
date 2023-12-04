@@ -20,7 +20,7 @@ time.sleep(2)
 
 wbhk = input(f"{Fore.LIGHTWHITE_EX}> webhook: ")
 pyld = input(f"{Fore.LIGHTWHITE_EX}> payload: ")
-print(f"{Fore.RED}awsome sauce")
+print(f"{Fore.RED}awesome sauce")
 
 def function():
     requests.post(wbhk,json={'content': pyld,})
