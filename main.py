@@ -20,7 +20,7 @@ time.sleep(2)
 
 wbhk = input(f"{Fore.LIGHTWHITE_EX}> webhook: ")
 pyld = input(f"{Fore.LIGHTWHITE_EX}> payload: ")
-print("{Fore.RED}awsome sauce")
+print(f"{Fore.RED}awsome sauce")
 
 def function():
     requests.post(wbhk,json={'content': pyld,})
@@ -28,4 +28,4 @@ def function():
 while True:
     function()
     time.sleep(0.6)
-    print("{Fore.GREEN}message sent")
+    print(f"{Fore.GREEN}message sent")
