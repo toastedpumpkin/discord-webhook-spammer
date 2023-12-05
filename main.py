@@ -16,7 +16,7 @@ print(f"{Fore.MAGENTA}   ░           ░             ░  ")
 print(f"{Fore.MAGENTA} ░ ")
 time.sleep(0.3)
 print(f"{Fore.MAGENTA}https://discord.gg/cHzvPFHPVd")
-time.sleep(0.7)
+time.sleep(0.5)
 
 wbhk = input(f"{Fore.LIGHTWHITE_EX}> webhook: ")
 pyld = input(f"{Fore.LIGHTWHITE_EX}> payload: ")
@@ -31,4 +31,4 @@ def function():
 while True:
     function()
     time.sleep(0.2)
-    print(f"{Fore.GREEN}message sent")
+    print(f"{Fore.GREEN}[+] Message sent!")
